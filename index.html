@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-S7YMK1xjUjSpEnF4P8hPUcgjXYLZKK3fQW1j5ObLSl787II9p8RO9XUGehRmKsxd" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+    <header>
+      <nav class="navbar navbar-default customNav">
+        <div class="container-fluid customLogo">
+          <div class="navbar-header">
+            <img src="Images/logo.png" id=logo>
+          </div>
+
+            <div class="btn">
+              <a href="#" class="btn btn-danger stampede">Stampede!</a>
+            </div>
+
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="textBoxes">
+            <div class="form-group">
+                <div class="form-group topLeft">
+                    <div class="col-lg-5">
+                        <textarea class="form-control firstBox" rows="4" id="textArea"></textarea>
+                        <span id="author">"Type up to 50 words in this box"</span>
+                    </div>
+                    <a href="#" class="btn btn-primary famousQuote">Famous quote</a>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="#" class="btn btn-info submitBut">Random</a>
+                <a href="#" class="btn btn-warning submitBut">Smarty pants</a>
+                <a href="#" class="btn btn-success submitBut">Dumb it down</a>
+                <a href="#" class="btn btn-danger urbanDictionary">Urban Dictionary</a>
+            </div>
+            <div class="form-group">
+                <div class="form-group bottomRight">
+                    <label for="textArea" class="col-lg-6 control-label"></label>
+                    <div class=bottomButtons id=wrapper>
+                    <a href="#" class="btn btn-primary analyze">Analyze Output</a>
+                    <a href="#" class="btn btn-info domain">Domain?</a>
+                  </div>
+                    <div class="col-lg-5 secondBoxDiv">
+                        <textarea class="form-control secondBox" rows="4" id="textArea"></textarea>
+                        <span class="help-block" id="analyzeOutput">Your output goes here</span>
+                    </div>
+                </div>
+            </div>
+            <div class="heightController">
+                <img id="dino" src="Images/dino.png" height="50px">
+            </div>
+        </section>
+    </main>
+    <footer class="navbar-default">
+        <p1>© 2017 JEFF HERNANEZ ALL RIGHTS RESERVED MAYBE</p1>
+    </footer>
+    <script src="animate.js"></script>
+    <script src="blacklist.js"></script>
+    <script src="famousQuotes.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <script src="urbanDictionary.js"></script>
+    <script src="analysis.js"></script>
+    <script src="domain.js"></script>
+
+</body>
+
+</html>

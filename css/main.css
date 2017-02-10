@@ -1,0 +1,100 @@
+.textBoxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.customNav {
+  display: flex;
+  align-items: center;
+    margin-bottom: 0px;
+}
+
+.bottomButtons{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.analyze{
+  margin-bottom: 3px;
+}
+
+.domain{
+  margin-bottom: 10%;
+}
+
+.customLogo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7%;
+}
+
+.topLeft {
+    padding-top: 6%;
+    padding-left: 15%;
+}
+
+.famousQuote{
+  margin-top: 1%;
+}
+
+.bottomRight {
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-right: 10%;
+}
+
+.bottomTextBox {
+    display: flex;
+  }
+
+
+body {
+    background-image: url("../Images/backgroundThree.png");
+    background-position: bottom right;
+}
+
+#dino {
+    position: absolute;
+    left: -1000px;
+    margin-top: 0px;
+}
+
+body {
+    height: 150%;
+}
+
+.heightController {
+    height: 270px;
+}
+
+#wrapper .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+}
+
+#logo  {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+footer {
+    position: relative;
+    height: 25px;
+    bottom: 0;
+    width: 100%;
+}
+
+p1 {
+    padding-left: %
+}
