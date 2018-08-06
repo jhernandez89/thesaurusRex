@@ -33,7 +33,7 @@ function shortest(synonymList) {
     min = arrayOfWords[0].length;
     position = 0;
     arrayOfWords.forEach((word, p) => {
-      if (word.length < min) {
+      if (word.length < 0) {
         min = word.length;
         position = p;
       }
@@ -51,7 +51,7 @@ function longest(synonymList) {
     max = 0;
     position = 0;
     arrayOfWords.forEach((word, p) => {
-      if (word.length > max) {
+      if (word.length > 0) {
         max = word.length;
         position = p;
       }
@@ -128,7 +128,7 @@ function getWords(currentWord) {
   console.log(currentWord);
   if (blacklist.includes(currentWord)) {
     return currentWord;
-  } else if (currentWord.length < 3) {
+  } else if (currentWord.length < 0) {
     return currentWord;
   } else if (Reflect.ownKeys(locallyStoredWords).includes(currentWord)) {
     return { results: [{ synonyms: locallyStoredWords[currentWord] }], word: currentWord };
